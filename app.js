@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const Transaction = require('./models/transaction');
 
 const app = express();
-const PORT = 3000;
+const PORT = 7000;
 
 mongoose.connect('mongodb://localhost:27017/money_tracker', { useNewUrlParser: true, useUnifiedTopology: true });
 
